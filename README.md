@@ -1,7 +1,6 @@
 # TFT Masters Meta Analysis
 
 TFT大师段位对局数据分析项目  
-作者：TFT大师段位玩家（3年经验），使用数据验证游戏直觉（运营、北伐、撞车、阵容选择等）。
 
 ## 项目目标
 - 分析高分段（大师/宗师）对局数据，量化“后期翻盘/稳运营”优势。
@@ -20,7 +19,6 @@ TFT大师段位对局数据分析项目
 - **其他待扩展**：Top阵容胜率、撞车率影响、英雄三星概率等。
 
 ![吃鸡率 vs 等级](tft_take_first_rate.png)  
-*(截图示例：把你笔记本里生成的图保存为 png，上传到 repo，再把文件名改成 tft_eat_chicken_rate.png，贴链接)*
 
 ## 如何运行
 1. 克隆仓库：
@@ -36,4 +34,4 @@ TFT大师段位对局数据分析项目
    pip install pandas matplotlib seaborn jupyter
 4. 启动 Jupyter Notebook
    ```bash
-   jupyter notebook data.ipynb   # 或你的 .ipynb 文件名
+   jupyter notebook data.ipynb   
