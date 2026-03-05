@@ -19,7 +19,7 @@ TFT大师段位对局数据分析项目
 - **等级 vs 吃鸡率**：大师局中，8级吃鸡率最高，证明后期运营更稳（图见下方）。
 - **其他待扩展**：Top阵容胜率、撞车率影响、英雄三星概率等。
 
-![吃鸡率 vs 等级](tft_eat_chicken_rate.png)  
+![吃鸡率 vs 等级](tft_take_first_rate.png)  
 *(截图示例：把你笔记本里生成的图保存为 png，上传到 repo，再把文件名改成 tft_eat_chicken_rate.png，贴链接)*
 
 ## 如何运行
@@ -27,3 +27,13 @@ TFT大师段位对局数据分析项目
    ```bash
    git clone https://github.com/HI-Cyber/TFT-Analysis.git
    cd TFT-Analysis
+2. 创建并激活环境
+   ```bash
+   conda create -n tft python=3.11 -y
+   conda activate tft
+3. 安装依赖
+   ```bash
+   pip install pandas matplotlib seaborn jupyter
+4. 启动 Jupyter Notebook
+   ```bash
+   jupyter notebook data.ipynb   # 或你的 .ipynb 文件名
