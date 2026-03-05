@@ -34,4 +34,14 @@ TFT大师段位对局数据分析项目
    pip install pandas matplotlib seaborn jupyter
 4. 启动 Jupyter Notebook
    ```bash
-   jupyter notebook data.ipynb   
+   jupyter notebook data.ipynb
+## 数据来源
+- Kaggle TFT 高分段对局数据集
+  https://www.kaggle.com/datasets/gyejr95/tft-match-data
+  （主要使用 Challenger/Master 段位数据，数万局对局）
+## 未来扩展计划
+- 解析 traits / combination 列 → Top 10 阵容吃鸡率排行
+- 撞车分析（同场多同特质玩家对胜率的影响）
+- 英雄 / 物品 / 三星概率统计
+- 经济曲线与 roll 点时机分析
+- 扩展到其他游戏数据（如王者荣耀、原神）
