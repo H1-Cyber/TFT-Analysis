@@ -34,7 +34,7 @@ TFT大师段位对局数据分析项目
    pip install pandas matplotlib seaborn jupyter
 4. 启动 Jupyter Notebook
    ```bash
-   jupyter notebook data.ipynb
+   jupyter notebook tft_analysis.ipynb
 ## 数据来源
 - Kaggle TFT 高分段对局数据集
   https://www.kaggle.com/datasets/gyejr95/tft-match-data
